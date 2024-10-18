@@ -1,0 +1,16 @@
+.login{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.logincap{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+}
+.g{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 182, 47);
+    font-size: 50px;
+    font-weight: 800;
+
+}

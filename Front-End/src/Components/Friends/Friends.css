@@ -1,0 +1,27 @@
+body {
+  margin-top: 20px;
+  background: #edf1f9;
+}
+.card {
+  box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  font-size: 0.765625rem;
+}
+a {
+  text-decoration: none;
+}
+
+.friendBtn {
+  margin-right: 5px;
+  width: 90px;
+}
+.nameProfile {
+  transition: color 0.5s;
+}
+
+.nameProfile:hover {
+ color: red;
+}

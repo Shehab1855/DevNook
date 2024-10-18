@@ -1,0 +1,12 @@
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    text-align: center;
+}
+.g{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 182, 47);
+    font-size: 50px;
+    font-weight: 700;
+
+}

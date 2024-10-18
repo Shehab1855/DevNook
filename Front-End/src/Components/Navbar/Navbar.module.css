@@ -1,0 +1,66 @@
+
+
+.lol{
+    background-color: rgba(141, 136, 136, 0.1);
+     margin-bottom: 34px;
+    padding: 15px;
+}.loll{
+    background-color: rgba(141, 136, 136, 0.1);
+     margin-bottom: 10px;
+    padding: 15px;
+}
+.head{
+     padding: 15px;
+     text-align: center;
+     
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.background {
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0); /* Gradient background for a modern look */
+    width: 40%; /* Further increased width */
+    border-radius: 20px; /* Rounded corners */
+    padding: 30px; /* More padding for better spacing */
+    margin: 20px; /* Adjust margins for better spacing */
+    position: absolute;
+    top: 50px;
+    right: 240px;
+    z-index: 9999;
+    height: 500px; /* Increased height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Larger shadow for more depth */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    font-size: 18px; /* Larger font size for readability */
+    color: #333; /* Darker text color for contrast */
+}
+
+/* Custom scrollbar styling */
+.background::-webkit-scrollbar {
+    width: 12px;
+}
+
+.background::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light background for track */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+
+.background::-webkit-scrollbar-thumb {
+    background: #c1c1c1; /* Slightly darker thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 3px solid #f1f1f1; /* Padding around thumb */
+}
+
+.background::-webkit-scrollbar-thumb:hover {
+    background: #a1a1a1; /* Darker on hover */
+}
+
+/* Additional styles for a more beautiful non-fixed background */
+.background {
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for background and shadow */
+}
+
+.background:hover {
+    background: linear-gradient(135deg, #e0e0e0, #d0d0d0); /* Slightly darker gradient on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); /* More pronounced shadow on hover */
+}
